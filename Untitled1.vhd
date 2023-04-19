@@ -1,4 +1,6 @@
-FUNCTION_BLOCK OnOffDelay
+// Structred text programming( Codesys code) for PLC programming
+// Obecjt : FUNCTION_BLOCK OnOffDelay for making digital input stable
+
 VAR_INPUT
 	IN : BOOL := FALSE;
 	(* Delay on tempo on. Disactive when 0 *)
